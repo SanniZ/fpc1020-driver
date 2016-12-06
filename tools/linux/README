@@ -1,0 +1,19 @@
+
+*** fpc1020 Linux driver simple testscript ***
+
+Prerequisites:
+- Kernel prepared to accept fpc1020 on SPIx.
+- fpc1020 device driver, compiled as a kernel module or built-into the kernel.
+
+Usage:
+- Modify fpc1020_envsetup.sh to fit the current environment.
+- Create a work directory on the platform.
+- Copy all files, fpc1020*.sh, to the platform work directory.
+- Copy the kernel driver module, fpc1020.ko to the platform work directory.
+- Execute fpc1020_main.sh
+
+Notes:
+- This is an engineering tool, intended for basic sensor connectivity testing.
+- Superuser permissions are required on the target platform.
+
+
